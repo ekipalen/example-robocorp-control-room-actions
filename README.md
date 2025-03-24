@@ -15,5 +15,5 @@ Gets the details of a specific process run (use the run ID returned by start_pro
 
 ## Authentication
 All actions require API key and workspace ID which can be provided either through:
-- Secret objects in the action calls
-- Environment variables (`API_KEY` and `WORKSPACE_ID`)
+- Secret objects in the action calls from AI Agent
+- Environment variables (`API_KEY` and `WORKSPACE_ID`) for local testing. 
